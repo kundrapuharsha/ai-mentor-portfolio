@@ -25,7 +25,14 @@
    - 10K JDs/day: free tier breaks. Move to paid Gemini OR self-host an open model.
 
 5. **INTERVIEW ANSWER** — "I built a structured-output pipeline that turns scraped JDs into clean filterable JSON, using free Gemini and Pydantic. Schema-first design with retry-on-failure made it production-shaped on a free-tier API."
+## Day 7 Lab 7A — ChromaDB Hello-World
 
+- Embedded 10 CSE Sem 5 paragraphs with all-MiniLM-L6-v2 (384-dim, free)
+- Indexed in persistent ChromaDB collection `hello_syllabus`
+- Ran 3 semantic queries — observed: top-1 match is relevant when query topic is in corpus, irrelevant when not
+- Plotted PCA 2D — visible OS / DBMS clusters
+
+**Reflection:**
 
 
 
